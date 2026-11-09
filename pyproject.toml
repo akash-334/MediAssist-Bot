@@ -1,0 +1,17 @@
+[project]
+name = "medical-assistant"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "akash-334", email = "akashabcd334.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+medical-assistant = "medical_assistant:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
